@@ -21,7 +21,8 @@ body {
 
     p {
         font-family: "Courier New", Courier, monospace;
-        background-color: #fff;
+        text-decoration: hidden;
+        background-color: #23F;
     }
 
     ul {
