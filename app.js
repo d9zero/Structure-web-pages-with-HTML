@@ -9,4 +9,3 @@ document.write('<hs>') + userName + ''
 
 
 
-confirm('Are you ready to rock?');
