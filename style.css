@@ -1,12 +1,4 @@
-nav {
-    
-float: center;
-clear: center;
-width: 320 px;
-background-color: #fff;
-color: #5a514c;
-text-align: center;
-border-style: dashed;}
+
 
 
 body { 
@@ -18,6 +10,16 @@ body {
     background-size: cover;
     margin: 0;
     padding: 0;}
+
+    nav {
+    
+        float: center;
+        clear: center;
+        width: 320 px;
+        background-color: #fff;
+        color: #5a514c;
+        text-align: center;
+        border-style: dashed;}
 
     p {
         font-family: "Courier New", Courier, monospace;
@@ -34,8 +36,28 @@ body {
     color: #5a514c;
     text-align: center;}
 
+    .artist {
+        width: 1000px;
+    }
+    
+
 iframe {
-    float: center; right: center;
+    float: center; left: center;
+    box-sizing: border-box;
+    
+}
+
+#section {
+    background: grey;
+}
+
+div {
+    background: grey;
+}
+
+.fit-picture { 
+    float: center;
+    width: 370px;
 }
 
 h1, h3, p {
@@ -69,6 +91,8 @@ p {
     border-right: 1px solid #bcbdc0;
     border-bottom: 1px solid #bcbdc0;
     border-left: 1px solid #bcbdc0;}
+
+    footer {float: center;}
 
 /* Border under box when you move script in the last example */
 p + script + h3 {
